@@ -1,8 +1,0 @@
->>> from PIL import Image
->>> img = Image.open('image.png').convert('LA')
->>> img = Image.open('/home/sanjay/Desktop/IMG_20171203_082101.jpg').convert('LA')
->>> img.save('/home/sanjay/Desktop/greyscale.png')
->>> import numpy as np
->>> img = img.resize((48,48),Image.ANTIALIAS)
->>> img.save('/home/sanjay/Desktop/greyscale1.png')>>> 
->>> pix = np.array(pic.getdata()).reshape(pic.size[0], pic.size[1], 3)
