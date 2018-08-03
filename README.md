@@ -11,3 +11,6 @@ The training set consists of 28,709 examples.
 
 ## Model
 CNN model was built using keras.
+
+## Using the model
+Move the images u need to images directory. Use emotion predict for results.
